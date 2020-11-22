@@ -28,6 +28,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<!--		TODO setup AWS -->
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.cloud</groupId>-->
 <!--			<artifactId>spring-cloud-starter-aws</artifactId>-->
@@ -49,13 +50,6 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-<!--		TODO remove -->
-<!--		<dependency>-->
-<!--			&lt;!&ndash; jsoup HTML parser library @ https://jsoup.org/ &ndash;&gt;-->
-<!--			<groupId>org.jsoup</groupId>-->
-<!--			<artifactId>jsoup</artifactId>-->
-<!--			<version>1.13.1</version>-->
-<!--		</dependency>-->
 
 		<dependency>
 			<groupId>net.sourceforge.htmlunit</groupId>

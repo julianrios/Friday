@@ -25,6 +25,7 @@ public class WebScraper {
         client.getOptions().setJavaScriptEnabled(false);
 
         try {
+            // TODO make base URL flexible
             String searchUrl = CRAIGSLIST_PHILLY_CARS_AND_TRUCKS.concat(URLEncoder.encode(searchQuery, "UTF-8")).concat(HAS_PIC_AND_WITHIN_40K_MILES);
             HtmlPage page = client.getPage(searchUrl);
             List<HtmlElement> items = page.getByXPath("//li[@class='result-row']") ;

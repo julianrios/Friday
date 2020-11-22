@@ -20,6 +20,7 @@ public class FridayApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FridayApplication.class, args);
 
+		// TODO scrape for multiple queries or add some sort of UI
 		String searchQuery = "1967 Chevy Impala";
 		WebScraper scraper = new WebScraper();
 		scraper.scrape(searchQuery);
