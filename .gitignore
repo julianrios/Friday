@@ -254,6 +254,8 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+/mvnw
+mvnw.cmd
 
 ### Gradle ###
 .gradle
@@ -273,5 +275,7 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+
+
 
 # End of https://www.gitignore.io/api/java,macos,maven,gradle,intellij,java-web,intellij+iml,intellij+all
